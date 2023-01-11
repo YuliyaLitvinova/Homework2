@@ -65,14 +65,31 @@ public class Main {
         var WeightOf2dBoxer = 82.7;
         var TotalWeight = WeightOf1stBoxer + WeightOf2dBoxer;
         System.out.println(" Общий вес двух бойцов " + TotalWeight + " кг");
-        var Difference = WeightOf1stBoxer % WeightOf2dBoxer;
+        var Difference = WeightOf2dBoxer % WeightOf1stBoxer;
         System.out.println(" Разница в весе бойцов " + Difference + " кг");
 
     }
     public static void task7 () {
+        System.out.println(" Задача 7");
+        var WeightOf1stBoxer = 78.2;
+        var WeightOf2dBoxer = 82.7;
+        var Difference = WeightOf2dBoxer % WeightOf1stBoxer;
+        System.out.println(" Разница в весе бойцов " + Difference + " кг");
+        Difference = WeightOf2dBoxer - WeightOf1stBoxer;
+        System.out.println(" Разница в весе бойцов " + Difference + " кг");
 
     }
     public static void task8 () {
+        System.out.println(" Задача 8");
+        var TotalHours = 640;
+        var HoursPerEmployee = 8;
+        var TotalEmployee = TotalHours / HoursPerEmployee;
+        System.out.println(" Всего работников в компании — " + TotalEmployee + " человек");
+        TotalEmployee = TotalEmployee + 94;
+        TotalHours = TotalEmployee * HoursPerEmployee;
+        System.out.println(" Если в компании работает " + TotalEmployee + " человек, то всего " + TotalHours + " часов работы может быть поделено между сотрудниками");
+
+
 
     }
 
